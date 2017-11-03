@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/formula"
+            android:icon="@drawable/farmula"
+            android:title="Formulas" />
+        <item
+            android:id="@+id/practice"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Practice" />
+        <item
+            android:id="@+id/test"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Take Test" />
+        <item
+            android:id="@+id/bookmarks"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Bookmarks" />
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Notifications" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Facebook" />
+        </menu>
+    </item>
+
+</menu>
